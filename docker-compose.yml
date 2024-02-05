@@ -2,12 +2,11 @@ version: "3.5"
 
 services:
   furnitureStore:
-    image: furnitureStore
+    image: furniture-store
     ports:
       - "80:3000"
 
   furnitureStoreSrv:
-    image: furnitureStoreSrv
+    image: furniture-store-srv
     ports:
-      - "8080:3000"
-
+      - "8080:8080"
