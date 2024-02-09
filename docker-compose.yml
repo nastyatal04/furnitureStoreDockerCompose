@@ -6,7 +6,7 @@ services:
     ports:
       - "80:3000"
     environment:
-      BACKEND_HOST: "178.154.201.116"
+      REACT_APP_BACKEND_HOST: "178.154.201.116"
 
   furnitureStoreSrv:
     image: furniture-store-srv
